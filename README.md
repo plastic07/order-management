@@ -1,21 +1,21 @@
-📦 Order Management System 
+Order Management System 
 
 This project is a backend template built using Django Rest Framework with Google OAuth 2.0 authentication. It allows users to authenticate via their Google accounts and perform secure data entry and retrieval through REST API endpoints.
 
 Developed as part of the Ywork.ai backend assignment.
 
-🔧 Features
+Features
 
-    🔐 Google OAuth 2.0 Authentication
+    Google OAuth 2.0 Authentication
     Secure user login via Google. Retrieves and stores access and refresh tokens.
 
-    📤 Add Sample Data
+    Add Sample Data
     Users can add structured entries (title + description) to the database.
 
-    📥 Retrieve Filtered Data
+    Retrieve Filtered Data
     Search entries by title via query parameters. API access is protected.
 
-📁 Project Structure
+Project Structure
 
 myproject/
 ├── manage.py
@@ -65,8 +65,8 @@ python manage.py runserver
 
 
 
-🔗 API Usage
-🔑 Google OAuth2 Authentication
+API Usage
+Google OAuth2 Authentication
 
 Visit this URL in your browser to trigger OAuth:
 [
@@ -88,15 +88,3 @@ GET /api/data/?title=Sample
 Fetch entries matching a specific title (authenticated):
 
 GET /api/data/?title=Sample
-
-🔒 .gitignore
-
-This project excludes sensitive files with the following .gitignore:
-
-client_secret.json
-venv/
-__pycache__/
-*.pyc
-db.sqlite3
-
-
